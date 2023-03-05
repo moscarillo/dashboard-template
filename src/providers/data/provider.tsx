@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import DataContext from "./context";
-
+import {
+  DATA_API_ONE_URL,
+  DATA_API_TWO_URL,
+  DATA_API_THREE_URL,
+} from "./constants";
 import type { ReactNode } from "react";
 import type { DataAll } from "./data";
 
@@ -15,15 +19,9 @@ export const DataProvider = (props: Props) => {
   useEffect(() => {
     const fetchAllData = async () => {
       const [dataApiOne, dataApiTwo, dataApiThree] = await Promise.all([
-        fetch("https://jsonplaceholder.typicode.com/todos/1").then((response) =>
-          response.json()
-        ),
-        fetch("https://jsonplaceholder.typicode.com/todos/2").then((response) =>
-          response.json()
-        ),
-        fetch("https://jsonplaceholder.typicode.com/todos/3").then((response) =>
-          response.json()
-        ),
+        fetch(DATA_API_ONE_URL).then((response) => response.json()),
+        fetch(DATA_API_TWO_URL).then((response) => response.json()),
+        fetch(DATA_API_THREE_URL).then((response) => response.json()),
       ]);
       setData({ dataApiOne, dataApiTwo, dataApiThree });
     };
