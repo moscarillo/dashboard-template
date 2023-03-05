@@ -22,5 +22,8 @@ export default defineConfig((configEnv) => {
           : "[hash:base64:5]",
       },
     },
+    server: {
+      port: 3000,
+    },
   };
 });

@@ -1,2 +1,2 @@
-export { default as DataContext } from './context';
-export { DataProvider } from './provider';
+export { default as DataContext } from "./context";
+export { DataProvider } from "./provider";

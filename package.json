@@ -1,16 +1,16 @@
 {
-  "name": "vital",
+  "name": "dashboard-template",
   "version": "1.0.0",
   "description": "Starter template for Vite with React (TypeScript). Supports Tailwind with CSS-Modules. Jest and @react/testing-library configured and ready to go. Also ESLint, Prettier, Husky, Commit-lint and Atomic Design for components.",
-  "homepage": "https://github.com/jvidalv/vital#readme",
+  "homepage": "https://github.com/moscarillo/dashboard-template#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jvidalv/vital.git"
+    "url": "git+https://github.com/moscarillo/dashboard-template.git"
   },
-  "author": "Josep Vidal <josepvidalvidal@gmail.com>",
+  "author": "John Moscarillo <moscarillo@designingwebs.tv>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jvidalv/vital/issues"
+    "url": "https://github.com/moscarillo/dashboard-template/issues"
   },
   "keywords": [
     "react",

@@ -1,1 +1,1 @@
-export { DataProvider } from './data';
+export { DataProvider } from "./data";

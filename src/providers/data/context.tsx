@@ -1,6 +1,6 @@
-import { createContext } from 'react';
+import { createContext } from "react";
 
-import type { DataAll } from './data';
+import type { DataAll } from "./data";
 
 const defaultDataAll = {
   dataApiOne: null,

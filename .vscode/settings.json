@@ -18,7 +18,12 @@
     "titleBar.inactiveBackground": "#007ace99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },

@@ -1,17 +1,15 @@
-import { DataProvider } from 'providers';
-import Table from 'components/organisms/table'
+import { DataProvider } from "providers";
+import Table from "components/organisms/table";
 import styles from "./app.module.css";
 
 const App = (): JSX.Element => {
   return (
     <main className={styles.main}>
-      <header className={styles.header}>
-      </header>
+      <header className={styles.header}></header>
       <DataProvider>
         <Table />
       </DataProvider>
-      <footer className={styles.footer}>
-      </footer>
+      <footer className={styles.footer}></footer>
     </main>
   );
 };
