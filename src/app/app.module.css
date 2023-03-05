@@ -1,0 +1,11 @@
+.main {
+  @apply flex flex-col w-full h-screen bg-blue-500;
+}
+
+.header {
+  @apply flex w-full bg-blue-600 h-20;
+}
+
+.footer {
+  @apply flex w-full bg-blue-600 h-16;
+}

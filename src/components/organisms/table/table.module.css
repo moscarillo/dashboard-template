@@ -1,0 +1,15 @@
+.table {
+  @apply flex flex-col flex-1 gap-1 w-full lg:max-w-screen-lg bg-slate-100 rounded-md shadow p-2;
+}
+
+.row {
+  @apply flex gap-1;
+}
+
+.cell {
+  @apply flex bg-white p-4 items-center;
+}
+
+.container {
+  @apply flex h-full p-8 flex-1 w-full;
+}
